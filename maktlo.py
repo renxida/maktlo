@@ -3,8 +3,9 @@
 import openai
 import os
 import openai
+from RotatingTextFile import RotatingTextFile
 openai.organization = "org-HRqLWCACWqb2BZgAXGT6UtE8"
-openai.api_key = "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"
+openai.api_key = os.environ["OPENAI_API_KEY"]
 # openai.Model.list()
 # %%
 command = "python test.py"
@@ -65,5 +66,6 @@ def maktlo_iterate(command, code_file):
         fp.write(str(stderr))
 
 # test fixed
-
-iterate("python test.py", "test.py")
+for i in range(10):
+    maktlo_iterate("python test.py", "test.py")
+# %%
