@@ -8,8 +8,6 @@ Maktlo is a tool that takes:
 
 And feeds compiler errors to GPT3, and ask for a diff on how to change the file, until it compiles.
 
-"Maktlo" is a name derived from Darsnali. The term "Makt" means "magic" or "enchantment," while "lo" is a suffix indicating a tool or device. Together, "Maktlo" is useed to refer to a magical device or tool that aids in the creation or use of powerful spells or enchanted objects.
-
 # Installation
 
 Run `init.bash`
@@ -19,3 +17,7 @@ Run `init.bash`
 Run maktlo.py
 
 It would iterate on test.py until it runs perfectly. Feel free to replace the example test.py with anything of your choice.
+
+# Etymology
+
+"Maktlo" is a name derived from Darsnali. The term "Makt" means "magic" or "enchantment," while "lo" is a suffix indicating a tool or device. Together, "Maktlo" is useed to refer to a magical device or tool that aids in the creation or use of powerful spells or enchanted objects.
